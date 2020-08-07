@@ -1,3 +1,7 @@
+/** 
+* Permite reindexar los journal articles de un site determinado.
+*/
+
 package com.liferay.everis.index;
 
 import com.liferay.asset.kernel.model.AssetEntry;
@@ -18,13 +22,10 @@ def int increment = 1000;
 
 class ReindexJournalArticleClass {
 
-
-
 	private static int _init = 0;
 	
 	private static Log _log = LogFactoryUtil.getLog("GROOVY TO REINDEX JOURNALS");
 
-	
 	public static DDMStructure getStructure (long structureId) {
 		_log.info("Getting DDMStructure from " + structureId + " structureId");
 		DDMStructure structure = null;
@@ -111,6 +112,5 @@ class ReindexJournalArticleClass {
 	
 	}
 }
-
 
 Thread.start ReindexJournalArticleClass.run(_initGroupId, _initStructureId, execute, allStructures, increment);

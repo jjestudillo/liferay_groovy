@@ -1,3 +1,7 @@
+/** 
+* Permite ejecutar sentencias SQL sobre la base de datos de Liferay 
+*/
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
