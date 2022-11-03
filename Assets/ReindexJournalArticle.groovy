@@ -2,8 +2,6 @@
 * Permite reindexar los journal articles de un site determinado.
 */
 
-package com.liferay.everis.index;
-
 import com.liferay.asset.kernel.model.AssetEntry;
 import com.liferay.asset.kernel.service.AssetEntryLocalServiceUtil;
 import com.liferay.dynamic.data.mapping.model.DDMStructure

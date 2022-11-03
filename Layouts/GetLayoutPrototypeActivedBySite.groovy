@@ -1,14 +1,10 @@
 /**
 * Consulta si las páginas de un determinado site tienen activada la herencia a partir de alguna plantilla
 */
-
-package com.liferay.everis.index;
-
 import com.liferay.portal.kernel.model.Layout;
 import com.liferay.portal.kernel.service.LayoutLocalServiceUtil;
 import com.liferay.portal.kernel.log.Log;
 import com.liferay.portal.kernel.log.LogFactoryUtil;
-import com.liferay.portal.kernel.util.StringPool;
 import com.liferay.portal.kernel.util.LocaleUtil;
 
 def long groupId = 22029;
